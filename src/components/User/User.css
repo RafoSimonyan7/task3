@@ -1,0 +1,11 @@
+.user_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}

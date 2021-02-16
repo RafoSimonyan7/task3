@@ -1,0 +1,45 @@
+.input_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+input {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  width: 100%;
+  height: 28px;
+  margin: 10px;
+  outline: none;
+  color: #777777;
+  font-size: 12px;
+}
+
+button {
+  padding: 8px 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Open Sans" sans-serif;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  color: #777777;
+  text-decoration: none;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #0f93eb;
+  color: #fff;
+}
